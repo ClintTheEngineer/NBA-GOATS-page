@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet"> 
+
+ 
+    <title>NBA Top 10 GOATS</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h1>View the Greatest NBA Players of All Time</h1>
+        </legend>
+        <form>
+        <label for="goat">Select A Ranking</label>
+        <select id="goat">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        <input type="submit" id="btn" onclick="getTheGoat()" value="Pick a GOAT">
+        </select>
+        </form>
+    </fieldset>
+  <section id="goat-display">
+<article>
+<div id="root"></div>
+<div id="root-2"><h2></h2><p></p><p id="position"></p></div>
+</article>
+  </section>
+</body>
+</html>

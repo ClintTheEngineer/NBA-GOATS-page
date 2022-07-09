@@ -1,0 +1,82 @@
+* {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset {
+    background-color: rgba(130, 120, 120, 0.529);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.541);
+    background-image: url(img/hall_of_fame.jpg);
+}
+
+label {
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 1px 1px rgb(148, 142, 142);
+}
+
+input {
+    background-color: rgb(106, 106, 137);
+    font-family: 'Karla', sans-serif;
+    font-weight: 500;
+}
+
+input:hover {
+    color: red;
+    transition-delay: 1s;
+}
+
+h1 {
+    color: crimson;
+    text-shadow: 3px 3px black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    opacity: 0.8;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+#root-2 {
+    background-color: rgba(86, 97, 107, 0.505);
+    margin-bottom: auto;
+    border: 2px solid white;
+}
+
+
+#root img {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+#root-2 {    
+    justify-content: center;
+}
+
+
+#root-2 img{
+    height: 300px;    
+}
+
+h2 {
+    color: crimson;
+    text-shadow: 2px 2px black;
+}
+
+p {
+    font-weight: 600;
+    color:hsl(0, 0%, 100%);
+    text-shadow: 2px 2px black;
+}
